@@ -1,0 +1,29 @@
+{
+  "name": "gitlab-mcp-server",
+  "version": "1.0.0",
+  "description": "GitLab MCP server for querying commits and projects",
+  "main": "dist/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "prepare": "npm run build",
+    "check-node": "node -e \"if(parseInt(process.version.slice(1))<18){console.error('❌ Node.js 版本需要 >= 18，当前版本:', process.version);process.exit(1)}else{console.log('✅ Node.js 版本:', process.version)}\""
+  },
+  "keywords": ["mcp", "gitlab", "cursor"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
+

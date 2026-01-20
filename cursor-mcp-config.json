@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gitlab": {
+      "command": "node",
+      "args": ["/Users/hehuan/Desktop/gitMcp/dist/index.js"],
+      "env": {
+        "GITLAB_URL": "https://gitlab.com",
+        "GITLAB_TOKEN": "your_personal_access_token_here"
+      }
+    }
+  }
+}
+
