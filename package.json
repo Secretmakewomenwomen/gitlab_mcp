@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/gitlab-mcp-server.git"
+    "url": "https://github.com/Secretmakewomenwomen/gitlab_mcp.git"
   },
-  "homepage": "https://github.com/your-username/gitlab-mcp-server#readme",
+  "homepage": "https://github.com/Secretmakewomenwomen/gitlab_mcp#readme",
   "bugs": {
-    "url": "https://github.com/your-username/gitlab-mcp-server/issues"
+    "url": "https://github.com/Secretmakewomenwomen/gitlab_mcp/issues"
   },
   "files": [
     "dist",
