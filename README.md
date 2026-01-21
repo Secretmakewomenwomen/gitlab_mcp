@@ -14,7 +14,25 @@ A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that e
 
 ### Installation
 
-#### Using npx (Recommended - No installation needed!)
+#### Method 1: One-Click Install Script (Recommended for Team Deployment)
+
+```bash
+# Run directly from GitHub (no clone needed)
+curl -sSL https://raw.githubusercontent.com/Secretmakewomenwomen/gitlab_mcp/main/install.sh | bash
+```
+
+This script will:
+- ✅ Check Node.js version (requires >= 18.0.0)
+- 📥 Download project files automatically
+- 🔨 Build and install globally
+- 🧹 Clean up temporary files
+
+**Features:**
+- Works even if you can't access GitHub directly (tries multiple download methods)
+- Automatically falls back to alternative download methods if git fails
+- Self-contained - no manual clone required
+
+#### Method 2: Using npx (No installation needed!)
 
 ```bash
 # MCP tools will be automatically downloaded on first use
